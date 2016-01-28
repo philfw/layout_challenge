@@ -21,8 +21,9 @@ header {
 }
 
 .float {
-	height:300px;
+	height:320px;
 	width:900px;
+	clear:both;
 }
 
 aside {
@@ -35,14 +36,13 @@ aside {
 }
 
 .column {
-	width:625px;
+	width:430px;
 	height:300px;
 	border:1px solid #000;
 	background-color:#999;
 	box-sizing:border-box;
-	float:left;
 	margin-top:20px;
-	margin-bottom:20px;
+	margin-bottom:5px;
 }
 
 footer {
@@ -62,12 +62,107 @@ footer {
 	border:1px solid #000;
 	background-color:#999;
 	box-sizing:border-box;
-	float:left;
 	margin-top:20px;
 	margin-bottom:20px;
 }
 
+/*Simple marketing*/
 
+.float-marketing {
+	height:150px;
+	width:900px;
+	clear:both;
+}
 
+.short {
+	height:120px;
+	width:280px;
+}
+
+/*Marketing with Nav*/
+
+.logo {
+	height:80px;
+	width:150px;
+	float:left;
+}
+
+.nav {
+	height:40px;
+	width:120px;
+	float:right;
+	margin-left:10px;
+}
+
+.marketing-header {
+	width:900px;
+	height:80px;
+}
+
+/*Magazine*/
+
+.magazine-header {
+	height:80px;
+	width:900px;
+	margin-bottom:20px;
+	clear:both;
+}
+
+.magazine-body {
+	width:900px;
+	height:450px;
+	top-margin:20px;
+}
+
+.left-bar {
+	border:1px solid #000;
+	background-color:#999;
+	box-sizing:border-box;
+	height:450px;
+	width:100px;
+	float:left;
+	margin-bottom:20px;
+}
+
+.top-bar {
+	border:1px solid #000;
+	background-color:#999;
+	box-sizing:border-box;
+	height:100px;
+	width:780px;
+	float:right;
+}
+
+.middle {
+	border:1px solid #000;
+	background-color:#999;
+	box-sizing:border-box;
+	width:580px;
+	height:200px;
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+}
+
+.right-bar {
+	border:1px solid #000;
+	background-color:#999;
+	box-sizing:border-box;
+	width:180px;
+	height:200px;
+	float:right;
+	margin-top:20px;
+}
+
+.button {
+	border:1px solid #000;
+	background-color:#999;
+	box-sizing:border-box;
+	width:180px;
+	height:110px;
+	float:right;
+	margin-top:20px;
+	margin-left:20px;
+}
 
 
